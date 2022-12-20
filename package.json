@@ -1,0 +1,16 @@
+{
+  "name": "testing-tools",
+  "version": "1.0.0",
+  "description": "Testing tools that are required to run before pushing code to version control",
+  "author": "Bala Challa <balakrishnachalla@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
